@@ -36,9 +36,13 @@ namespace emu
                     Console.WriteLine(file.FullName);
                 }
             }
-            else if (armed == 0)
+            else if (armed == 0 && args[0].Length > 0)
             {
-                Console.WriteLine("not armed, proceeding with );
+                Console.WriteLine("not armed, proceeding with caged execution" );
+                if (File.Exists(args[0])) 
+                {
+                    wipe(args[0]);
+                }
             }
             else if (args[0] == "-h" || args[0] == "-help" || args[0] == "/help")
             {
