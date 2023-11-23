@@ -10,11 +10,6 @@ namespace emu
             Console.WriteLine(Filepath);
             byte[] byteray = nullwrite(Filepath.Length);
             File.WriteAllBytes(Filepath, byteray);
-            /*using (Stream stream = File.Open(Filepath, FileMode.Open))
-            {
-                stream.Position = 0;
-                stream.Write(null);
-            }*/
         }
 
         static byte[] nullwrite(int Size)
@@ -25,8 +20,6 @@ namespace emu
 
         static void Main(string[] args)
         {
-            //string filepath = "C:\\users\\zoe\\Desktop\\test.txt";
-            //wipe(filepath);
             int armed = 0;
             if (armed == 1)
             {
