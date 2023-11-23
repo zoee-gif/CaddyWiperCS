@@ -11,4 +11,10 @@ This malware falls under [T1485: Data Destruction](https://attack.mitre.org/tech
   3. Attempt to access attached drives starting with `D:\`
 
 ## Arming the malware
-  1. Change `int armed = 0` to `1` on line # of [Program.cs](/CaddyClone/Program.cs)
+  1. Change `int armed = 0` to `1` on line # of [Program.cs](/CaddyClone/Program.cs#22)
+
+## TODO List
+- [x] Single file wipe via `armed == 0`
+- [x] Batch file wipe via `armed == 1`
+- [ ] Attached drive boot record wipe
+- [ ] Finish README writeup with instructions
