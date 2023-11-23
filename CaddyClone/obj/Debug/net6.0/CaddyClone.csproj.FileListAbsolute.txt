@@ -1,0 +1,15 @@
+C:\Users\Zoe\source\repos\CaddyClone\obj\Debug\net6.0\CaddyClone.csproj.AssemblyReference.cache
+C:\Users\Zoe\source\repos\CaddyClone\obj\Debug\net6.0\CaddyClone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zoe\source\repos\CaddyClone\obj\Debug\net6.0\CaddyClone.AssemblyInfoInputs.cache
+C:\Users\Zoe\source\repos\CaddyClone\obj\Debug\net6.0\CaddyClone.AssemblyInfo.cs
+C:\Users\Zoe\source\repos\CaddyClone\obj\Debug\net6.0\CaddyClone.csproj.CoreCompileInputs.cache
+C:\Users\Zoe\source\repos\CaddyClone\bin\Debug\net6.0\CaddyClone.deps.json
+C:\Users\Zoe\source\repos\CaddyClone\bin\Debug\net6.0\CaddyClone.dll
+C:\Users\Zoe\source\repos\CaddyClone\bin\Debug\net6.0\CaddyClone.pdb
+C:\Users\Zoe\source\repos\CaddyClone\obj\Debug\net6.0\CaddyClone.dll
+C:\Users\Zoe\source\repos\CaddyClone\obj\Debug\net6.0\refint\CaddyClone.dll
+C:\Users\Zoe\source\repos\CaddyClone\obj\Debug\net6.0\CaddyClone.pdb
+C:\Users\Zoe\source\repos\CaddyClone\obj\Debug\net6.0\ref\CaddyClone.dll
+C:\Users\Zoe\source\repos\CaddyClone\bin\Debug\net6.0\CaddyClone.exe
+C:\Users\Zoe\source\repos\CaddyClone\bin\Debug\net6.0\CaddyClone.runtimeconfig.json
+C:\Users\Zoe\source\repos\CaddyClone\obj\Debug\net6.0\CaddyClone.genruntimeconfig.cache
